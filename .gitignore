@@ -1,0 +1,11 @@
+.bash_history
+.bash_logout
+.vscode-server
+.azure
+.cache
+.copilot
+.docker
+.dotnet
+.sudo_*
+.selected_editor
+env/

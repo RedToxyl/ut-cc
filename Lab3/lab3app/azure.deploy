@@ -1,0 +1,3 @@
+#!/bin/bash
+
+az webapp up -n lab3-2-auto --sku F1 -g lab3 -l swedencentral --runtime "PYTHON:3.10" --plan ASP-lab3-a79c --logs
