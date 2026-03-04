@@ -16,6 +16,10 @@ jobs:
     permissions:
       contents: read #This is required for actions/checkout
 
+    defaults:
+      run:
+        working-directory: Lab3/lab3app   # ← all run steps execute here 
+
     steps:
       - uses: actions/checkout@v4
 
