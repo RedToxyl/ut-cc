@@ -45,7 +45,7 @@ def handleMessage(req: func.HttpRequest, outputDocument: func.Out[func.Document]
     outputDocument.set(func.Document.from_dict(json_message))
 
     return func.HttpResponse(
-        f"Entered message was: {msg}. <link href='/api/htmlForm'>Enter another message</link>",
+        f"Entered message was: {msg}. <a href='/api/htmlForm'>Enter another message</a>",
         status_code=201,
         mimetype="text/html"
 )
