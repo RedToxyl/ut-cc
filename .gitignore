@@ -9,3 +9,4 @@
 .sudo_*
 .selected_editor
 env/
+secrets
